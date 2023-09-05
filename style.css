@@ -24,7 +24,7 @@ main {
   border-radius: 10px;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 85%;
   margin: 5px;
   outline: none;
@@ -38,7 +38,7 @@ input[type=text] {
   background-color: hsl(209, 20%, 80%);
 }
 
-.inputContainer>i {
+.inputContainer > i {
   font-size: 1.5rem;
 }
 
@@ -50,35 +50,27 @@ input[type=text] {
   cursor: pointer;
 }
 
-
-.space {
-  display: inline;
-  margin: 0px 180px;
-}
-
-.inputContainer~span {
+.inputContainer ~ span {
   color: hsl(206, 5%, 73%);
   font-size: 0.8rem;
   font-weight: lighter;
   cursor: pointer;
 }
 
-.inputContainer~span:hover,
-.inputContainer~span:active {
+.inputContainer ~ span:hover,
+.inputContainer ~ span:active {
   color: hsl(210, 2%, 57%);
 }
-
 
 .dobCheck {
   display: flex;
   align-items: center;
   color: hsl(206, 5%, 73%);
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   margin-right: 20px;
   font-weight: lighter;
   cursor: pointer;
 }
-
 
 hr {
   border: 0;
@@ -92,7 +84,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 ul li {
@@ -120,7 +111,7 @@ ul li:hover {
   font-size: 1.4rem;
 }
 
-#list li input[type=checkbox] {
+#list li input[type="checkbox"] {
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -168,7 +159,6 @@ ul li:hover {
 .complete span:visited {
   color: hsl(206, 5%, 73%);
 }
-
 
 /* buttons */
 button {
