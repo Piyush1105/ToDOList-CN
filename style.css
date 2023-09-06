@@ -62,7 +62,20 @@ input[type="text"] {
   color: hsl(210, 2%, 57%);
 }
 
-.dobCheck {
+.head-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.head-btns > i {
+  display: flex;
+  align-items: center;
+  color: hsl(206, 5%, 73%);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.head-btns > span {
   display: flex;
   align-items: center;
   color: hsl(206, 5%, 73%);
@@ -148,6 +161,10 @@ ul li:hover {
 .span-btns {
   display: flex;
   align-items: center;
+  color: hsl(206, 5%, 73%);
+  font-size: 0.8rem;
+  font-weight: lighter;
+  cursor: pointer;
 }
 .complete span {
   cursor: pointer;
